@@ -23,6 +23,7 @@ This intent enables structured analysis of interviews, surveys, or observation n
 - Behavioral insights and supporting evidence  
 - Opportunities or “How Might We” directions  
 - Visual summaries (optional)
+- Automatically generated "Opportunity Areas" including title, description and related quotes
 
 ---
 
