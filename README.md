@@ -1,37 +1,37 @@
-# AI-Assistant-Lab
-A personal lab to explore how generative AI can assist in creative, analytical, and design workflows. Includes spec-driven experiments, workflows, and prototypes built with tools like Cursor, Claude, and Figma.
+# 🧠 AI-Assistant-Lab
 
-Project initialized by Gema
+A personal lab to explore how generative AI can assist in creative, analytical, and design workflows.  
+Includes spec-driven experiments, modular prompts, and conversational agents built with Cursor, Claude, and Figma.
 
 ---
 
-## 🎯 Atida UX Assistant
+## 🧩 Overview
 
-**Atida UX Assistant** es un sistema de IA que ayuda a analizar, idear y generar copy de UX para experiencias de ecommerce.
+**AI-Assistant-Lab** is a modular system designed to test how generative AI can support UX research and content design.  
+It combines structured prompts, workflows, and local AI agents that can analyze, ideate, and write UX copy in Spanish.
 
-### 📚 Módulos de prompts disponibles
+Main goals:
+- Explore how AI can improve UX analysis and ideation.
+- Build a system that connects modular prompts into a functional UX assistant.
+- Create a reproducible framework for design teams using Cursor and GitHub.
 
-El asistente utiliza los siguientes módulos locales de prompts ubicados en `/prompts/`:
+---
 
-- **`interview-insight-analyzer.md`** — Para analizar investigación cualitativa (entrevistas, feedback de usuarios)
-- **`basket-atidacash-analyzer.md`** — Para identificar fricción en la cesta relacionada con Atida Cash
-- **`basket-atidacash-ideator.md`** — Para generar ideas de mejora basadas en insights
-- **`basket-copy-generator.md`** — Para escribir microcopy y tooltips
-- **`copy-validation-checklist.md`** — Para validar tono y claridad del copy
+## 🤖 Atida UX Assistant
 
-### 🎯 Cómo usar el asistente
+**Atida UX Assistant** is a local AI agent that helps analyze user feedback, identify friction points, generate improvement ideas, and write microcopy in a natural, empathetic tone.
 
-El asistente selecciona automáticamente qué módulo(s) usar según tu solicitud:
+### Core capabilities
+- Analyze qualitative feedback (`interview-insight-analyzer.md`)
+- Detect friction in basket and checkout (`basket-atidacash-analyzer.md`)
+- Generate UX improvement ideas (`basket-atidacash-ideator.md`)
+- Create microcopy and tooltips (`basket-copy-generator.md`)
+- Validate tone and clarity (`copy-validation-checklist.md`)
 
-- **"Analiza este feedback"** → Usa el analyzer
-- **"Dame ideas de UX"** → Usa el ideator
-- **"Genera texto para tooltip"** → Usa el copy generator
-- **"Valida este texto"** → Usa el checklist
+### Language & tone
+All outputs are written in **natural Spanish (Spain)**, with **Atida’s tone** — clear, human, and professional.
 
-Los módulos pueden combinarse cuando sea necesario (ej: analizar → idear → generar copy).
+---
 
-### 🌍 Idioma y tono
+## 🧱 Project structure
 
-- **Idioma:** Todos los outputs están en español natural (España)
-- **Tono:** Claro, empático y profesional (estilo Atida)
-- **Objetivo:** Facilitar la investigación de UX y la generación de copy de forma más rápida y centrada en el usuario
